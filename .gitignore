@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Windows / WSL artifacts
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+
+# Ignore heavy video files in media folder
+media/*.mp4
+*.mp4
+
+# ROS 2 local build & log outputs (if run locally)
+build/
+install/
+log/
+
+# Secrets
+.env
+*.pem
+media/*.mp4
+media/*.mp4
