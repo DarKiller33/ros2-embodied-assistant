@@ -193,15 +193,18 @@ ros2 run embodied\_assistant ai\_brain
 
 *Prompts you for natural language commands (e.g., "Take me to the kitchen" or "Navigate to the living room"). Parses commands via Ollama LLM and sends goal coordinates directly to Nav2.*
 
-## **### 📸 Simulation \& Visualization**
+### 📸 Simulation & Visualization
 
-## 
-
-| Gazebo World | RViz Navigation |
-
-| :---: | :---: |
-
-| <img src="media/gazebo\_world.png" width="450" alt="Gazebo Simulation World"/> | <img src="media/rviz.png" width="450" alt="RViz Navigation Visualizer"/> |
+<table>
+  <tr>
+    <td align="center"><b>Gazebo World</b></td>
+    <td align="center"><b>RViz Navigation</b></td>
+  </tr>
+  <tr>
+    <td><img src="media/gazebo_world.png" alt="Gazebo Simulation World"></td>
+    <td><img src="media/rviz.png" alt="RViz Navigation Visualizer"></td>
+  </tr>
+</table>
 
 ## 
 
