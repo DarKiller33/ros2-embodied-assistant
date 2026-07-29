@@ -1,5 +1,4 @@
 
-
 # **🤖 Embodied AI Autonomous Mobile Robot (AMR) Assistant**
 
 An end-to-end Embodied AI system operating in **ROS 2 Humble** and **Gazebo 11**. The system combines local LLM cognitive reasoning (**Ollama**), real-time 2D SLAM mapping and path planning (**Nav2** + **SLAM Toolbox**), and real-time deep learning computer vision (**YOLOv8** with direct NumPy buffer parsing).
@@ -208,9 +207,16 @@ ros2 run embodied\_assistant ai\_brain
   </tr>
 </table>
 
-### 🎥 Project Demonstration
+### 🎥 Demonstration Videos
 
+#### Chat Interface
 <video src="https://github.com/user-attachments/assets/e5f702c4-61e5-49be-a329-c28fb8bccc4f" width="100%" controls></video>
+
+#### Autonomous Navigation - Goal 1
+<video src="https://github.com/user-attachments/assets/a1f8cfef-206b-43a0-9b00-845bed200fa4" width="100%" controls></video>
+
+#### Autonomous Navigation - Goal 2
+<video src="https://github.com/user-attachments/assets/354aa2ca-ea40-4636-8eae-73b45805df4b" width="100%" controls></video>
 ## 
 
 ## **7. Core Nodes Overview**
