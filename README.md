@@ -51,6 +51,32 @@ v                                                |
 3. **Perception Layer (object\_detector.py)**: Subscribes to raw camera feeds (/camera/image\_raw), decodes binary byte buffers directly using zero-copy NumPy matrix transformations, executes YOLOv8 neural network inference, and publishes spatial detections and annotated frames (/camera/image\_yolo).
 4. **Simulation Layer (Gazebo 11)**: Simulates ODE rigid-body physics, differential drive wheel kinematics, 360° LIDAR ray casting, and RGB camera sensors.
 
+### 📸 Simulation & Visualization
+
+<table>
+  <tr>
+    <td align="center"><b>Gazebo World</b></td>
+    <td align="center"><b>RViz Navigation</b></td>
+  </tr>
+  <tr>
+    <td><img src="media/gazebo_world.png" alt="Gazebo Simulation World"></td>
+    <td><img src="media/rviz.png" alt="RViz Navigation Visualizer"></td>
+  </tr>
+</table>
+
+### 🎥 Demonstration Videos
+
+#### Chat Interface
+
+https://github.com/user-attachments/assets/e5f702c4-61e5-49be-a329-c28fb8bccc4f
+
+#### Autonomous Navigation - Goal 1
+https://github.com/user-attachments/assets/a1f8cfef-206b-43a0-9b00-845bed200fa4
+
+#### Autonomous Navigation - Goal 2
+https://github.com/user-attachments/assets/354aa2ca-ea40-4636-8eae-73b45805df4b
+## 
+
 ## **2. Project \& File Structure**
 
 Your ROS 2 package resides inside the src directory of your workspace (\~/embodied\_bot\_ws):
@@ -194,31 +220,6 @@ ros2 run embodied\_assistant ai\_brain
 
 *Prompts you for natural language commands (e.g., "Take me to the kitchen" or "Navigate to the living room"). Parses commands via Ollama LLM and sends goal coordinates directly to Nav2.*
 
-### 📸 Simulation & Visualization
-
-<table>
-  <tr>
-    <td align="center"><b>Gazebo World</b></td>
-    <td align="center"><b>RViz Navigation</b></td>
-  </tr>
-  <tr>
-    <td><img src="media/gazebo_world.png" alt="Gazebo Simulation World"></td>
-    <td><img src="media/rviz.png" alt="RViz Navigation Visualizer"></td>
-  </tr>
-</table>
-
-### 🎥 Demonstration Videos
-
-#### Chat Interface
-
-https://github.com/user-attachments/assets/e5f702c4-61e5-49be-a329-c28fb8bccc4fwidth
-
-#### Autonomous Navigation - Goal 1
-<video src="https://github.com/user-attachments/assets/a1f8cfef-206b-43a0-9b00-845bed200fa4" width="100%" controls></video>
-
-#### Autonomous Navigation - Goal 2
-<video src="https://github.com/user-attachments/assets/354aa2ca-ea40-4636-8eae-73b45805df4b" width="100%" controls></video>
-## 
 
 ## **7. Core Nodes Overview**
 
