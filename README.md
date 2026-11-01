@@ -210,7 +210,8 @@ ros2 run embodied\_assistant ai\_brain
 ### 🎥 Demonstration Videos
 
 #### Chat Interface
-<video src="https://github.com/user-attachments/assets/e5f702c4-61e5-49be-a329-c28fb8bccc4f" width="100%" controls></video>
+
+https://github.com/user-attachments/assets/e5f702c4-61e5-49be-a329-c28fb8bccc4fwidth
 
 #### Autonomous Navigation - Goal 1
 <video src="https://github.com/user-attachments/assets/a1f8cfef-206b-43a0-9b00-845bed200fa4" width="100%" controls></video>
